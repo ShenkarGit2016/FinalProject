@@ -1,0 +1,10 @@
+C:\Users\User\documents\visual studio 2015\Projects\WeatherData\ApiUser\bin\Debug\ApiUser.exe.config
+C:\Users\User\documents\visual studio 2015\Projects\WeatherData\ApiUser\bin\Debug\ApiUser.exe
+C:\Users\User\documents\visual studio 2015\Projects\WeatherData\ApiUser\bin\Debug\ApiUser.pdb
+C:\Users\User\documents\visual studio 2015\Projects\WeatherData\ApiUser\bin\Debug\WeatherDataHelper.dll
+C:\Users\User\documents\visual studio 2015\Projects\WeatherData\ApiUser\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\documents\visual studio 2015\Projects\WeatherData\ApiUser\bin\Debug\WeatherDataHelper.pdb
+C:\Users\User\documents\visual studio 2015\Projects\WeatherData\ApiUser\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\documents\visual studio 2015\Projects\WeatherData\ApiUser\obj\Debug\ApiUser.csprojResolveAssemblyReference.cache
+C:\Users\User\documents\visual studio 2015\Projects\WeatherData\ApiUser\obj\Debug\ApiUser.exe
+C:\Users\User\documents\visual studio 2015\Projects\WeatherData\ApiUser\obj\Debug\ApiUser.pdb

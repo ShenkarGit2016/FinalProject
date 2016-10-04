@@ -1,0 +1,8 @@
+C:\Users\User\documents\visual studio 2015\Projects\WeatherData\WeatherDataHelper\bin\Debug\WeatherDataHelper.dll.config
+C:\Users\User\documents\visual studio 2015\Projects\WeatherData\WeatherDataHelper\bin\Debug\WeatherDataHelper.dll
+C:\Users\User\documents\visual studio 2015\Projects\WeatherData\WeatherDataHelper\bin\Debug\WeatherDataHelper.pdb
+C:\Users\User\documents\visual studio 2015\Projects\WeatherData\WeatherDataHelper\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\documents\visual studio 2015\Projects\WeatherData\WeatherDataHelper\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\documents\visual studio 2015\Projects\WeatherData\WeatherDataHelper\obj\Debug\WeatherDataHelper.dll
+C:\Users\User\documents\visual studio 2015\Projects\WeatherData\WeatherDataHelper\obj\Debug\WeatherDataHelper.pdb
+C:\Users\User\documents\visual studio 2015\Projects\WeatherData\WeatherDataHelper\obj\Debug\WeatherDataHelper.csprojResolveAssemblyReference.cache
