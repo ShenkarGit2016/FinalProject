@@ -11,7 +11,17 @@ namespace WeatherDataHelper
     /// </summary>
     public class WeatherDataServiceException : System.Exception
     {
+        #region Consts
+        
+        public const string MSG_PARSE_ERROR = "Error parsing result";
+
+        #endregion
+
+        #region Ctors
+
         public WeatherDataServiceException() : base() { }
-        public WeatherDataServiceException(string strMessage) : base(strMessage) { }
+        public WeatherDataServiceException(string strMessage) : base(strMessage) { } 
+
+        #endregion
     }
 }

@@ -8,3 +8,4 @@ C:\Users\User\documents\visual studio 2015\Projects\WeatherData\WeatherDataTeste
 C:\Users\User\documents\visual studio 2015\Projects\WeatherData\WeatherDataTester\bin\Debug\WeatherDataHelper.pdb
 C:\Users\User\documents\visual studio 2015\Projects\WeatherData\WeatherDataTester\bin\Debug\Newtonsoft.Json.xml
 C:\Users\User\documents\visual studio 2015\Projects\WeatherData\WeatherDataTester\obj\Debug\WeatherDataTester.csprojResolveAssemblyReference.cache
+C:\Users\User\documents\visual studio 2015\Projects\WeatherData\WeatherDataTester\bin\Debug\WeatherDataTester.dll.config

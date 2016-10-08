@@ -74,6 +74,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="city.list.json" />
+    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

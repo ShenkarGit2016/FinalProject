@@ -48,6 +48,9 @@ namespace WeatherDataHelper
 
         #region Data_Members
 
+        /// <summary>
+        /// List of cities we could query thier weather
+        /// </summary>
         List<JsonCity> _lstCities;
 
         #endregion
@@ -77,8 +80,15 @@ namespace WeatherDataHelper
             // Check if city was found
             if (ctyRequestedCity != null)
             {
-                // Create the HTTP GET request with the requested location ID
-                wdResponse = GetResponse("/weather?id=" + ctyRequestedCity._id + "&units=metric");
+                try
+                {
+                    // Create the HTTP GET request with the requested location ID
+                    wdResponse = GetResponse("/weather?id=" + ctyRequestedCity._id + "&units=metric");
+                }
+                catch(WeatherDataServiceException ex)
+                {
+                    throw ex;
+                }
             }
 
             return wdResponse;
@@ -233,14 +243,14 @@ namespace WeatherDataHelper
             }
             catch
             {
-                throw new WeatherDataServiceException("Error parsing result");
+                throw new WeatherDataServiceException(WeatherDataServiceException.MSG_PARSE_ERROR);
             }
         }
 
         /// <summary>
         /// Maps a city name to its ID from the Json File
         /// </summary>
-        public void LoadJsonCities()
+        private void LoadJsonCities()
         {
             try
             {
@@ -255,7 +265,7 @@ namespace WeatherDataHelper
             }
             catch
             {
-                throw new WeatherDataServiceException("Error parsing JSON city list");
+                //throw new WeatherDataServiceException("Error parsing JSON city list");
             }
         }
 
